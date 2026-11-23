@@ -1,0 +1,3 @@
+nnunetv2
+pydicom
+PyQt6

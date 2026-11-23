@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Scratch folders created at runtime (contain patient data)
+imagesTs/
+predictionTs/
+nnUNet_raw/
+nnUNet_preprocessed/
+
+# Trained model is distributed as a GitHub Release asset (downloaded by install scripts)
+nnUNet_results/
+*.zip
