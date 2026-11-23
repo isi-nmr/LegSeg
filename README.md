@@ -3,7 +3,7 @@
 LegSeg is a desktop GUI for segmenting Dixon MRI images of the leg with
 [nnU-Net v2](https://github.com/MIC-DKFZ/nnUNet). It loads Fat and Water DICOM series,
 runs a trained nnU-Net model, shows the segmentation over the images, and reports
-the share of each tissue per slice.
+the percentage of each tissue per slice.
 
 ## Installation
 
@@ -49,8 +49,8 @@ is a 2D 5-fold ensemble trained on Fat/Water Dixon slices. It segments these lab
 
 | Label | Name                         |
 |-------|------------------------------|
-| 1     | visceral fat                 |
-| 2     | muscle                       |
+| 1     | muscle                       |
+| 2     | visceral fat                 |
 | 3     | bone                         |
 | 4     | nerves and vessels           |
 | 5     | intra- and intermuscular fat |
